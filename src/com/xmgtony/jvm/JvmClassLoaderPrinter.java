@@ -12,6 +12,7 @@ import java.net.URLClassLoader;
  * email xmgtony@gmail.com
  * description 打印jvm启动时，启动类加载器BootstrapClassLoader，拓展类加载器ExtClassLoader，
  * 应用类加载器AppClassLoader加载了哪些路径下的jar包。
+ * 注意：在idea等IDE中执行时，应用类加载器会打印启动类和拓展类加载器的路径，在命令行窗口使用java命令执行不会。
  */
 public class JvmClassLoaderPrinter {
     public static void main(String[] args) {
